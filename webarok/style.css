@@ -1,0 +1,40 @@
+nav {
+  background-color: #003366;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 15px;
+  justify-content: center;
+}
+
+section {
+  padding: 100px 50px;
+}
+
+#Home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#Contact,
+#About {
+  background-color: #f0f8ff;
+}
